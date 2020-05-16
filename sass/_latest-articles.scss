@@ -1,0 +1,44 @@
+.latest-articles {
+
+  background: var(--light-grayish-blue);
+
+  h2 {
+    text-align: center;
+  }
+
+  &__grid {
+    padding: 2em 0;
+    display: grid;
+    grid-row-gap: 2em;
+  }
+
+  &__item {
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--white);
+
+    &--content {
+      padding: 1.5em;
+    }
+
+    img {
+      object-fit: cover;
+    }
+
+    small {
+      color: var(--grayish-blue);
+      display: block;
+      margin-bottom: 1em;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .text {
+      color: var(--grayish-blue);
+    }
+
+  }
+
+}

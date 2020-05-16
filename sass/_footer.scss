@@ -1,0 +1,72 @@
+.footer {
+  background: var(--dark-blue);
+  color: var(--white);
+  padding: 2em 0;
+  text-align: center;
+
+  svg {
+    display: block;
+    margin:auto;
+    margin-bottom: 2em;
+  }
+
+  &__social {
+    display: grid;
+    grid-template-columns: repeat(5, 25px);
+    grid-column-gap: 1em;
+    justify-content: center;
+    margin: 2.5em 0;
+  }
+
+  &__link {
+    display: block;
+    color: var(--light-grayish-blue);
+    text-decoration: none;
+    margin: 1.5em;
+  }
+
+  .button {
+    margin: 2em 0;
+  }
+
+  &__copyright {
+    color: var(--grayish-blue)
+  }
+
+}
+
+@mixin icon {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+}
+
+.icon {
+
+  &__facebook {
+    @include icon;
+    background-image: url("../challenge_assets/images/icon-facebook.svg");
+  }
+
+  &__youtube {
+    @include icon;
+    background-image: url("../challenge_assets/images/icon-youtube.svg");
+  }
+
+  &__twitter {
+    @include icon;
+    background-image: url("../challenge_assets/images/icon-twitter.svg");
+  }
+
+  &__pinterest {
+    @include icon;
+    background-image: url("../challenge_assets/images/icon-pinterest.svg");
+  }
+
+  &__instagram {
+    @include icon;
+    background-image: url("../challenge_assets/images/icon-instagram.svg");
+  }
+
+}

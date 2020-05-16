@@ -1,0 +1,10 @@
+.hero {
+  text-align: center;
+  padding-bottom: 3.5em;
+  &__image {
+    height: 300px;
+    background: url('../challenge_assets/images/image-mockups.png') bottom no-repeat, url('../challenge_assets/images/bg-intro-mobile.svg') center no-repeat;
+    background-size: 345px, cover;
+    margin-bottom: 0;
+  }
+}
