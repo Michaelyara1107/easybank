@@ -36,7 +36,7 @@ header {
 }
 
 .latest-articles {
-  background: var(--light-grayish-blue);
+  background: var(--white);
 }
 .latest-articles h2 {
   text-align: center;
